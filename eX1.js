@@ -10,7 +10,7 @@ function dogCheck(dog_string, dog_names){
 for (let i=0; i<dog_names.length; i++){
     let x = dog_string.includes(dog_names[i]);
     if (x == true){
-        console.log('Matched dog name');
+        console.log('Matched ' + dog_names[i]);
         break;
         }
     if (x != true){
